@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MAKALAH SKEMATIK ARDUINO</title>
+<style type="text/css">
+body{
+margin:1px;
+padding:5px;
+font-family:times;
+background:rgb(0,0,0,0.2);
+}
+div{
+max-width:100%;
+height:600px;
+border:5px double black;
+overflow:auto;
+padding:15px;
+box-sizing:border-box;
+box-shadow:0 0px 5px black, 0 0px 8px limegreen, 0 0px 10px yellow;
+border-radius:8px;
+line-height:25px;
+background:white;
+}
+hr{
+border:0;
+border-bottom:2px dotted black;
+}
+.judul{
+margin-top:4rem;
+text-align:center;
+}
+.judul img{
+width:200px;
+}
+nav{
+margin-top:5px;
+width:90%;
+height:60px;
+border:1px solid rgb(0,0,0,0.2);
+position:fixed;
+top:0;
+left:18px;
+background:white;
+border-radius:5px;
+padding:10px;
+box-sizing:border-box;
+display:flex;
+}
+nav a{
+width:100px;
+color:orange;
+padding:5px;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+<nav>
+<a href="#pengantar">Kata Pengantar</a>
+<a href="#daftar">Daftar isi</a>
+<a href="#bab1">Bab I</a>
+<a href="#bab2">Bab II</a>
+<a href="#bab3">Bab III</a>
+</nav>
+
+<div class="judul">
+<h2>SKEMATIK JALUR <br>LAMPU ARDUINO UNO</h2>
+<img src="logo.png">
+<h5 style="margin-bottom:-5px;">DISUSUN OLEH :</h5>
+<small>
+Angga Haady Wijaya<br>
+Yoan Abbil<br>
+Irha Zulfia<br>
+Novi Indriaini Rahmad
+</small>
+
+</div>
+
+<br>
+
+<div class="pengantar" id="pengantar">
+<h2 align="center" style="margin-bottom:3rem;">KATA PENGANTAR</h2>
+
+<p align="justify">
+&nbsp;&nbsp;Puji dan syukur penulis haturkan kepada Tuhan Yang Maha Esa atas selesainya makalah yang berjudul
+
+"SKEMATIK JALUR LAMPU ARDUINO"
+
+Atas dukungan moral dan materil yang diberikan dalam penyusunan makalah ini, maka penulis mengucapkan terima kasih kepada.
+
+Bapak ANDI GANTENG SLEBEW, selaku guru yang telah memberikan bimbingan, saran, ide, dan juga kesempatan untuk menggunakan fasilitas sekolah untuk menunjang pembuatan makalah.
+
+Saya mengucapkan terima kasih kepada semua pihak yang terlibat. Saya ucapkan terima kasih kepada bapak guru yang tak lelah menerima ajakan diskusi. Kemudian kepada para warga XII RPL² yang bersedia bekerja sama dalam hal ini. tanpa kesediaan mereka, saya tidak akan mendapatkan data yang lengkap untuk menyusun laporan ini.
+
+Penulis menyadari bahwa makalah ini jauh dari kata sempurna dan masih terdapat beberapa kekurangan, oleh karena itu penulis sangat mengharapkan saran dan kritik yang membangun dari pembaca untuk penyempurnaan makalah ini.
+
+</p>
+<p align="right"><u>Medan, 16 Februari 2024</u></p>
+
+</div>
+
+<br>
+
+<div class="daftar" id="daftar">
+<h2 align="center" style="margin-bottom:3rem;">DAFTAR ISI</h2>
+
+<p align="justify">
+KATA PENGANTAR
+<br>
+
+BAB I PENDAHULUAN
+<br>
+1.1.LATAR BELAKANG 
+<br>
+1.2.TUJUAN PENULISAN.
+<br>
+1.3. RUANG LINGKUP
+<br>
+BAB II PEMBAHASAN STUDI KASUS.
+<br>
+2.1.Diagram Blok.
+<br>
+2.1.Diagram Blok
+<br>
+2.2. Perancangan.
+<br>
+2.3.Perancangan Perangkat Keras....
+<br>
+2.4.Penjelasan Teori
+<br>
+BAB III PENUTUP..
+<br>
+3.1. Kesimpulan...
+<br>
+DAFTAR PUSTAKA
+</p>
+<p align="right"><u>Medan, Januari 2024</u></p>
+
+</div>
+
+<br>
+
+<div class="bab1" id="bab1">
+<h2 align="center" style="margin-bottom:3rem;">BAB I<br> PENDAHULUAN</h2>
+
+
+
+<p align="justify">
+
+<h4 id="latar">1.1. Latar Belakang</h4>
+
+Ilmu pengetahuan dan teknologi semakin berkembang juga mengalami kemajuan, sesuai dengan perkembangan zaman, memungkinkan kita harus berpikir kritis, kreatif dan produktif. Didalam kehidupan manusia yang modern ini, dimana sebuah alat rangkaian sederhana sampai yang canggih sangat bermanfaat bagi manusia, sebagai contoh lampu rumah. Lampu sangat membantu pekerjaan manusia dan mempermudah aktivitas sehari-hari, lebih mudah lagi ketika lampu menggunakan sistem android. Dengan menggunakan sistem android ini kita dapat mengontrol lampu (mematikan dan menghidupkan lampu) dirumah, pada prinsipnya sama seperti menggunakan saklar tapi hanya saja ditambahkan beberapa peralatan. Berdasarkan permasalahan diatas, maka sebaiknya setiap rumah menggunakan Sistem Kontrol Lampu Rumah Menggunakan Android. Dengan adanya sistem kontrol ini maka proses menyalakan lampu bisa lebih mudah.
+<br>
+
+<h4>1.2. Tujuan Penulisan</h4>
+
+Laporan Akhir ini mempunyai tujuan yaitu untuk memberikan pengetahuan tentang Arduino khususnya untuk membuat sistem kontrol lampu rumah menggunakan boarduino, selain itu laporan akhir ini dapat digunakan untuk mempermudah proses menyalakan lampu yang ada dirumah.
+<br>
+
+<h4>1.3. Ruang Lingkup</h4>
+
+Studi Kasus Penulisan studi kasus ini hanya merupakan sistern dari kontrol lampu rumah yaitu bagaimana cara mengembangkan dengan menggunkan aplikasi boarduino.
+<br>
+</p>
+
+</div>
+
+<br>
+
+<div class="bab2" id="bab2">
+<h2 align="center" style="margin-bottom:3rem;">BAB II <br>PEMBAHASAN<br> STUDI KASUS</h2>
+
+<p align="justify">
+2.1 Diagram blok
+<br>
+Diagram blok merupakan gambaran dasar dari rangkaian system yang akan di rancang. Agar mempermudah penulis dalam menjelaskan perancangan system ini, maka digambarakan alur dan cara kerja system pada diagram blok pada pada gambar dibawah ini Gambar
+
+2.1 Diagram Blok
+
+Rangkaian prototype system ini terdiri atas 2 bagian utama, yaitu blok proses dan Blok output. Blok proses yaitu memberika data dan diterima oleh Arduino lalu diproses secara algoritma untuk dilanjutka ke blok output. Blok output merupakan simulasi system control sesuai proses algoritma yang sebelumnya dilakukan oleh Arduino.
+
+2.2 Perancangan
+
+Pada bagian ini, Penulis membagi proses ini menjadi dua bagian penting yaitu, Perancangan Hardware dan Perancangan Software Arduino. Perancangan Hardware yaitu mengsimulasikan Arduino sebagai pengontrol otomatis LED dan Arduino juga merupakan ontak pengendali.. Sedangkan pada perancangan Software yaitu pembuatan program Arduino menggunakan bahasa pemograman C.
+
+2.3 Perancangan Perangkat keras
+
+(Hardware) 4 Tahapan perancanaan simulasi Hardware dalam sistem ini terbagi 2 (dua) yaitu perancangan melalui Arduino dan Perancangan kontrol otomatis lampu LED dan Arduino. Adapun bahan-bahan dan alat yang digunakan dakam perancangan simulasi hardware dapat dilihat dibawah ini: 1. Kabel Jamper 2. Arduino UNO 3. Lampu LED\ 4. Papan PCB
+
+</p>
+
+</div>
+
+<br>
+
+<div class="bab3" id="bab3">
+<h2 align="center" style="margin-bottom:3rem;">BAB III <br>PENUTUP</h2>
+
+
+
+<p align="justify">
+A.Kesimpulan
+<br>
+Berdasarkan hasil penelitian tugas akhir ini, maka dapat diambil kesimpulan sebagai berikut:
+<br><br>
+a) Sistem akan berfungsi ketika sensor suara FC-04 mendapat input suara (kode bunyi) berupa tepukan yang bernilai 1 kemudian diakumulasikan pada arduino dengan nilai diatas 400 millis sesuai program yang diupload untuk dijadikan keluaran 5 volt untuk menyalakan/memadamkan lampu.
+<br><br>
+b) Sensor suara FC-04 hanya mampu memberikan signal output digital yang bernilai 1 dan 0.
+<br><br>
+c) Untuk menyalakan lampu dengan jarak jangkauan tertentu ada beberapa hal Yang mempengaruhi seperti, pengaturan tingkat sensitifitas sensor suara dan tingkat kebisingan sekitar area ruangan.
+</p>
+
+</div>
+
+<br>
+
+</body>
+</html>
+
+
+
+
