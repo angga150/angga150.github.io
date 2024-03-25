@@ -1,5 +1,5 @@
 # Hey I'm Angga Haady Wijaya :smiley:
-### Halo 👋<!-- 
+### Halo 👋
 
 ## Github Status
 ![GitHub Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=angga150&layout=compact&theme=blue-green)
